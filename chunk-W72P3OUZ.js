@@ -1,0 +1,1 @@
+var A=(function(T){return T.ADMIN="ADMIN",T.DOCTOR="DOCTOR",T.RECEPTIONIST="REGISTRAR",T.ACCOUNTANT="ACCOUNTANT",T})(A||{});export{A as a};
