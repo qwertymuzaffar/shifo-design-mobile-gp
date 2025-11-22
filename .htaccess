@@ -1,10 +1,7 @@
-RewriteEngine On
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} -s [OR]
+RewriteCond %{REQUEST_FILENAME} -l [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^.*$ - [NC,L]
 
-# If an existing asset or directory is requested, serve it directly
-RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} -f [OR]
-RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} -d
-RewriteRule ^ - [L]
-
-# If the requested resource doesn't exist,
-# rewrite the request to index.html
-RewriteRule ^ /index.html [L]
+RewriteRule ^(.*) /index.html [NC,L]
