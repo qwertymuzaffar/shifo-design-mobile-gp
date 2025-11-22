@@ -1,1 +1,0 @@
-# shifo-design-mobile-gp

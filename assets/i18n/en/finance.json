@@ -18,7 +18,8 @@
             "loading": "Loading...",
             "paymentMethod": "Payment method",
             "actions": "Actions",
-            "notFound": "No expenses found"
+            "notFound": "No expenses found",
+            "clearFilters": "Clear"
         },
         "common": {
             "cancel": "Cancel",

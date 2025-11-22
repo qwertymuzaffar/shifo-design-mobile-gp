@@ -18,7 +18,8 @@
             "loading": "Загрузка...",
             "paymentMethod": "Способ оплаты",
             "actions": "Действия",
-            "notFound": "Траты не найдены"
+            "notFound": "Траты не найдены",
+            "clearFilters": "Очистить"
         },
         "common": {
             "cancel": "Отмена",
